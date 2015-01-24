@@ -92,7 +92,7 @@ div {
 	height: 4.375rem;
 	margin: 0 auto;
 	padding: 0px 15px;
-	max-width: 80%
+	max-width: 60%
 }
 
 .top-navigation .logo {
@@ -189,6 +189,37 @@ button:hover {
     cursor: pointer;
 }
 
+/*-------------------Cases---------------*/
 
+.cases {
+	width: 100%;
+	background-color: #fff;
+	height: 45.938rem;
+}
 
+.cases > .content {
+	max-width: 50%;
+	margin: 0 auto;
+}
 
+.cases h2,
+.cases .caption h3 {
+	color: #1D1E21;
+	text-align: center;
+	font-weight: 300;
+}
+
+.cases h2 {
+	margin-top: 8.5rem;
+	font-size: 2.75rem;
+}
+
+.cases .caption h3 {
+	margin-top: 1.5rem;
+	font-size: 1.125rem;
+	font-weight: bold;
+}
+
+.cases .devices li {
+	display: inline-block;
+}
